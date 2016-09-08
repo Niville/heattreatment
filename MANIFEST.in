@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include heat_treatment *.css
+recursive-include heat_treatment *.csv
+recursive-include heat_treatment *.html
+recursive-include heat_treatment *.ico
+recursive-include heat_treatment *.js
+recursive-include heat_treatment *.json
+recursive-include heat_treatment *.md
+recursive-include heat_treatment *.png
+recursive-include heat_treatment *.py
+recursive-include heat_treatment *.svg
+recursive-include heat_treatment *.txt
+recursive-exclude heat_treatment *.pyc
